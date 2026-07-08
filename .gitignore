@@ -6,12 +6,11 @@ __pycache__/
 generated/
 
 .vscode/
-
 .idea/
 
 .venv/
-
 venv/
+antenv/
 
 *.pdf
 *.png
