@@ -1,0 +1,17 @@
+.env
+
+__pycache__/
+*.pyc
+
+generated/
+
+.vscode/
+
+.idea/
+
+.venv/
+
+venv/
+
+*.pdf
+*.png

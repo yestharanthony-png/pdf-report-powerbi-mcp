@@ -1,0 +1,13 @@
+Region,Product,Sales,Profit,Month,Customer,Quantity
+North,Laptop,12000,2500,Jan,ABC Pvt Ltd,15
+South,Mobile,8500,1800,Jan,XYZ Corp,25
+East,Tablet,6000,1200,Feb,Tech Solutions,12
+West,Monitor,9500,2100,Feb,Global Inc,18
+North,Keyboard,3000,700,Mar,ABC Pvt Ltd,40
+South,Mouse,2500,600,Mar,XYZ Corp,55
+East,Printer,7200,1400,Apr,Office Hub,10
+West,Speaker,4800,900,Apr,Retail Mart,22
+North,SSD,10500,2200,May,Tech Solutions,30
+South,Webcam,4100,800,May,Office Hub,16
+East,Laptop,13500,3000,Jun,Global Inc,17
+West,Mobile,9100,1900,Jun,Retail Mart,28

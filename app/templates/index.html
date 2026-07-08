@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Business Report Generator</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="hero">
+
+        <h1>🤖 AI Business Report Generator</h1>
+
+        <p class="subtitle">
+
+            Generate intelligent reports using
+            <strong>CSV</strong>,
+            <strong>Excel</strong>,
+            <strong>Azure OpenAI</strong>,
+            <strong>Charts</strong>,
+            <strong>Power BI</strong>,
+            and export professional PDFs.
+
+        </p>
+
+    </header>
+
+
+    <section>
+
+        <h2>🚀 Workflow</h2>
+
+        <div class="workflow">
+
+            <div class="step">
+
+                <div class="icon">📂</div>
+
+                <h3>Upload</h3>
+
+                <p>CSV / Excel</p>
+
+            </div>
+
+            <div class="arrow">➜</div>
+
+            <div class="step">
+
+                <div class="icon">🤖</div>
+
+                <h3>AI Analysis</h3>
+
+                <p>Azure OpenAI</p>
+
+            </div>
+
+            <div class="arrow">➜</div>
+
+            <div class="step">
+
+                <div class="icon">📊</div>
+
+                <h3>Charts</h3>
+
+                <p>Statistics</p>
+
+            </div>
+
+            <div class="arrow">➜</div>
+
+            <div class="step">
+
+                <div class="icon">📄</div>
+
+                <h3>PDF</h3>
+
+                <p>Download</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <form
+        action="/report/generate"
+        method="POST"
+        enctype="multipart/form-data">
+
+        <div class="card">
+
+            <h2>Select Input Type</h2>
+
+            <label>
+
+                <input
+                    type="radio"
+                    name="input_type"
+                    value="prompt"
+                    checked>
+
+                Natural Language
+
+            </label>
+
+            <br><br>
+
+            <label>
+
+                <input
+                    type="radio"
+                    name="input_type"
+                    value="csv">
+
+                CSV
+
+            </label>
+
+            <br><br>
+
+            <label>
+
+                <input
+                    type="radio"
+                    name="input_type"
+                    value="excel">
+
+                Excel
+
+            </label>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Business Prompt</h2>
+
+            <textarea
+                name="prompt"
+                rows="8"
+                placeholder="Example: Analyze sales performance"></textarea>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Upload Dataset</h2>
+
+            <input
+                type="file"
+                name="file"
+                accept=".csv,.xlsx,.xls">
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>Report Includes</h2>
+
+            <ul>
+
+                <li>Dataset Validation</li>
+
+                <li>Statistics</li>
+
+                <li>AI Summary</li>
+
+                <li>Charts</li>
+
+                <li>Power BI (Optional)</li>
+
+                <li>PDF Report</li>
+
+            </ul>
+
+        </div>
+
+
+        <button
+            type="submit"
+            class="generate-btn">
+
+            🚀 Generate Report
+
+        </button>
+
+    </form>
+
+</div>
+
+<footer>
+
+    © 2026 AI Business Report Generator
+
+</footer>
+
+</body>
+
+</html>
