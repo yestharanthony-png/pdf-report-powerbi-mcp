@@ -12,7 +12,10 @@ from tools.generate_report import generate_report as _generate_report
 # MCP Server
 # ---------------------------------------------------------
 
-mcp = FastMCP("PDF Report Generator MCP")
+mcp = FastMCP(
+    "PDF Report Generator MCP",
+    stateless_http=True,
+)
 
 
 @mcp.tool()
