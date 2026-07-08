@@ -73,4 +73,5 @@ jobs:
         with:
           app-name: 'pdf-report-powerbi-mcp'
           slot-name: 'Production'
+          package: .
           
